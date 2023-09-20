@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+
+        }
+        .maindiv {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .card_setting {
+            padding-left: 10px;
+            padding-right: 95px;
+            height: 371px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .card_1 {
+            background-color: #32312D;
+        }
+        .img_size {
+            width: 110px;
+            height: auto;
+            margin-top: 10px;
+            display: block;
+        }
+        .card_2 {
+            background-color: #2E6432;
+        }
+        .card_3 {
+            background-color: #FFFFFF;
+        }
+        .card_4 {
+            background-color: #3E818A;
+        }
+        .icon_style {
+            color: #CD4312;
+            background-color: white;
+            border-radius: 100%;
+            font-size: larger;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .item_size {
+            width: 100%;
+            height: 500px;
+        }
+        .card_setting .heading {
+            color: white;
+            font-weight: bolder;
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .heading_black {
+            color: black;
+            font-weight: bolder;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .img_size {
+            padding-left: 80px;
+            padding-top: 30px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-right: 95px;
+            height: 45px;
+            border-radius: 10px;
+            position: relative;
+            color: black;
+            align-items: center;
+            justify-content: center;
+            font-weight: bolder;
+        }
+        .btn_color_green {
+            background-color: #2E6432;
+            color: white;
+            font-weight: bolder;
+        }
+        .btn_color_blue {
+            background-color: #3E818A;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="card_parent">
+            <div class="card_1 card_setting">
+                <h3 class="heading">BREADS</h3>
+                <img src="images/img2.png" alt="" class="img_size">
+                <i class="fa-sharp fa-solid fa-circle-play icon_style"></i>
+            </div>
+            <div class="buttons">PLANT-BASED</div>
+        </div>
+        <div class="card_parent">
+            <div class="card_2 card_setting">
+                <h3 class="heading">CHICKEN</h3>
+                <img src="images/img2.png" alt="" class="img_size">
+                <i class="fa-sharp fa-solid fa-circle-play icon_style"></i>
+            </div>
+            <div class="buttons btn_color_blue">SWEETS</div>
+        </div>
+        <div class="card_parent">
+            <div class="card_3 card_setting">
+                <h3 class="heading_black">SANDWHICH</h3>
+                <img src="images/img2.png" alt="" class="img_size">
+                <i class="fa-sharp fa-solid fa-circle-play icon_style"></i>
+            </div>
+            <div class="buttons btn_color_green">FAMOUS DIP</div>
+        </div>
+        <div class="card_parent">
+            <div class="card_4 card_setting">
+                <h3 class="heading">STROMBOLIS <br> & <br> TANZEROTTIS</h3>
+                <img src="images/img2.png" alt="" class="img_size">
+                <i class="fa-sharp fa-solid fa-circle-play icon_style"></i>
+            </div>
+            <div class="buttons">DRINKS</div>
+        </div>
+    </div>
+</body>
+
+</html>
